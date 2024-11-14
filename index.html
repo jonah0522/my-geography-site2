@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>地理教材 - 捲動式影片展示</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>捲動式影片：伊斯蘭世界的形成與發展</h1>
+  <div id="beenl">
+    <div id="bc4f0136-97b4-430f-9f96-55ab1dae3ee4"></div>
+  </div>
+
+  <!-- 嵌入影片的 JavaScript 程式碼 -->
+  <script defer crossorigin src="https://cdn.jsdelivr.net/npm/@story-telling-reporter/react-embed-code-generator@2.1.2/dist/scrollable-video.js"></script>
+  <script>
+    (function() {
+      var namespace = '@story-telling-reporter/react-embed-code-generator@2.1.2';
+      var pkg = 'scrollable-video';
+      if (typeof window != 'undefined') {
+        if (!window.hasOwnProperty(namespace)) {
+          window[namespace] = {};
+        }
+        if (window[namespace] && !window[namespace].hasOwnProperty(pkg)) {
+          window[namespace][pkg] = [];
+        }
+        var data = {
+          "video": {
+            "src": "https://lab-storytelling-storage.twreporter.org/files/a-c-720-X77FEaf0IEk5DPU3Qa3.m4v",
+            "mobileSrc": "https://lab-storytelling-storage.twreporter.org/files/a-c-720-X77FEaf0IEk5DPU3Qa3.m4v",
+            "duration": 147.45
+          },
+          "darkMode": true,
+          "secondsPer100vh": 3.5,
+          "uuid": "bc4f0136-97b4-430f-9f96-55ab1dae3ee4"
+        };
+        window[namespace][pkg].push(data);
+      }
+    })();
+  </script>
+
+</body>
+</html>
